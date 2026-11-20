@@ -1,0 +1,52 @@
+{
+  "session": {
+    "weekday": "tuesday",
+    "room": "Aula 1.2",
+    "schedule": "19:30 a 21:00",
+    "switch_contact": "@vtiter"
+  },
+  "locale": {
+    "months": [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ],
+    "weekdays": [
+      "lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"
+    ],
+    "relative_days": {
+      "0": "hoy",
+      "1": "mañana",
+      "2": "pasado mañana"
+    },
+    "default_relative_day": "el {weekday}"
+    
+  },
+  "headers": [
+    "¡DÍA DE SMASH!",
+    "¡{WHEN} HAY SMASH!",
+    "¡CALENTANDO MOTORES PARA {WHEN}!",
+    "¡ATENCIÓN SMASHERS, {WHEN} TOCA!",
+    "¡NUEVA SESIÓN DE SMASH A LA VISTA!"
+  ],
+  "message_template": [
+    "<b>{header}</b>",
+    "",
+    "Sesión {date} ({weekday})",
+    "",
+    "{room}",
+    "Horario: {schedule}",
+    "",
+    "Recordad llevaros vuestro propio mando a ser posible. Si alguien puede aportar su Nintendo Switch con el Smash (no hace falta que tenga DLCs) que escriba a {switch_contact} por privado.",
+    "",
+    "¡Nos vemos! 🔥💪🎮"
+  ],
+  "poll": {
+    "enabled": true,
+    "question": "¿Te pasas {when} a echar unas partidas?",
+    "options": [
+      "Obvio microbio 🔥",
+      "Llego un poco más tarde ⏱️",
+      "Esta semana no puedo 😢"
+    ]
+  }
+}
